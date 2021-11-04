@@ -1,6 +1,8 @@
 $(document).ready(function() {
-  $("#choose-animal").click(function() {
-    $("#Moose").toggle();
+  $("#choose-animal").change(function() {
+    const animal = $("#choose-animal").val();
+    if (animal === "Moose") {
+      $("#Moose").toggle();  
+    }
   });
-  
 });
