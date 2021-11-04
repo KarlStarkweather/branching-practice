@@ -7,15 +7,15 @@ $(document).ready(function() {
     $("#Turkey").hide();
     $("#Aardvark").hide();
 
-    $("#"+animal).show();
-    // if (animal === "Moose") {
-    //   $("#Moose").show();  
-    // } else if (animal === "Iguana") {
-    //   $("#Iguana").show();
-    // } else if (animal === "Turkey") {
-    //   $("#Turkey").show();
-    // } else if (animal === "Aardvark") {
-    //   $("#Aardvark").show();
-    // }
+    // $("#"+animal).show();
+    if (animal === "Moose") {
+      $("#Moose").show();  
+    } else if (animal === "Iguana") {
+      $("#Iguana").show();
+    } else if (animal === "Turkey") {
+      $("#Turkey").show();
+    } else if (animal === "Aardvark") {
+      $("#Aardvark").show();
+    }
   });
 });
